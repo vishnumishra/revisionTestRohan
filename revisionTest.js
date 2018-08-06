@@ -9,6 +9,7 @@ test.fibonacci_finds_the_nth_fibonacci_number = function(){
 	assert.equal(1,fibonacci(2));
 	assert.equal(1,fibonacci(3));
 	assert.equal(3,fibonacci(5));
+	assert.equal(13,fibonacci(8));
 };
 
 test.fibonacci_returns_undefined_for_negative_numbers = function(){
