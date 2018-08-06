@@ -78,7 +78,7 @@ test.getVowelCount_gives_the_count_of_vowels = function(){
 	assert.equal(r.getVowelCount('morning'),2);
 	assert.equal(r.getVowelCount('cooling'),3);
 	assert.equal(r.getVowelCount('i am'),2);
-};
+};	
 
 test.getVowelCount_gets_the_count_of_vowels_with_capital_letters = function(){
 	assert.equal(r.getVowelCount('Owl'),1);
